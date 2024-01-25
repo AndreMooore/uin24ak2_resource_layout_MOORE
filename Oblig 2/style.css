@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Gaegu&display=swap");
+
+:root {
+  --black: #2a324b;
+  --grey: #58699d;
+  --white: #e1e5ee;
+  --white2: #fff;
+}
+
+body {
+  font-family: "Montserrat", "Roboto", sans-serf;
+  padding: 10rem;
+  background-color: var(--white);
+}
+
+h1 {
+  margin-bottom: 1rem;
+}
+
+div {
+  background-color: var(--white2);
+  padding: 4rem;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+button {
+  padding: 1rem;
+  background-color: #2a324b;
+  color: #e1e5ee;
+  font-size: 1.3rem;
+  cursor: pointer;
+  border: 0;
+  padding: 2rem 4rem;
+  font-weight: bold;
+}
+
+button.active {
+  background-color: #fff;
+  color: #2a324b;
+}
